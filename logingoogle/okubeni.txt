@@ -1,0 +1,5 @@
+openssl.cafile="C:\xampp\htdocs\deneme\cacert.pem"
+curl.cainfo ="C:\xampp\htdocs\deneme\cacert.pem"
+ cacert sertifikasý burada olduðu için sertifika giderse cacert.pem indir bu dosya 
+google loginde sýkýntý çýkarýdý deneme klasöründeki sertifikayý silmiþim iki saatir uðraþýyorum google login çalýþmýyor 
+ en son buldum hatasý denemenin içindeki sertikanýn kayýp olmasýdýr

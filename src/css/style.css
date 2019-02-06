@@ -1,0 +1,590 @@
+/*indexle ilgili cssler burada*/
+
+
+@media (max-width:1100px) {
+
+  #megamenu{
+
+    display: none;
+  }
+  
+}
+
+
+
+
+.baslik{
+	background-color: black;
+	height:3.5rem;
+}
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+ul,li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*hader-sol css başlangıç */
+.header-sol{
+	
+
+
+ 
+}
+.header-sol ul {
+
+
+}
+.header-sol ul li{
+float: left;
+}
+.header-sol ul li a
+{
+display: block;
+text-decoration: none;
+
+padding: 0px 10px;
+}
+.header-sol a.bir{
+
+color:dodgerblue;
+
+}
+.header-sol a.iki{
+	color: white;
+
+
+}
+/*hader-sol css bitiş */
+/*hader-sag css başlangıç */
+.header-sag{
+
+	text-align: center;
+
+}
+.header-sag ul li {
+
+float: left;
+
+background-color: black;
+}
+.header-sag ul li a
+{
+display: block;
+text-decoration: none;
+padding: 0px 10px;
+color: white;
+
+}
+.header-sag a.bir{
+
+	background-color:#FF6600;
+	border-radius: 2px;
+}
+.header-sag a.bes{
+
+
+	background-color: #656D78;
+	border-right: 5px solid white;
+	padding:0px !important
+
+}
+
+@media(max-width:1600px) and (min-width:1500px ){
+
+    .ali{
+
+        margin-left: 350px;
+    }
+}
+
+
+@media(max-width:1499px) and (min-width:1399px ){
+
+    .ali{
+
+        margin-left:250px;
+    }
+}
+
+@media(max-width:1398px) and (min-width:1298px ){
+
+    .ali{
+
+        margin-left:150px;
+    }
+}
+
+@media(max-width:1297px) and (min-width:1197px ){
+
+    .ali{
+
+        margin-left:50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:994px) and (min-width:900px ){
+
+    .ali .bir, .ali .iki, .ali .uc{
+
+     display: none;
+    }
+    .ali{
+    
+     margin-left:250px; 
+   
+
+   
+    }
+}
+
+@media(max-width:899px) and (min-width:799px ){
+
+    .ali .bir, .ali .iki, .ali .uc{
+
+     display: none;
+    }
+    .ali{
+    
+     margin-left:150px; 
+   
+
+   
+    }
+}
+
+@media(max-width:798px) and (min-width:698px ){
+
+    .ali .bir, .ali .iki, .ali .uc{
+
+     display: none;
+    }
+    .ali{
+    
+     margin-left:50px; 
+   
+
+   
+    }
+}
+
+
+
+@media(max-width:780px){
+
+     .ali .bir, .ali .iki, .ali .uc,.ali .dort,.ali .alti{
+
+     display: none;
+    }
+
+
+.bes{
+
+    position: absolute;
+    top:-20px;
+    right:5px;
+}
+
+ 
+
+ 
+
+}
+
+/* header bitiş*/
+/* menu başlangıç*/
+
+.col-md-3 .sepetim,.girisyap{
+  display:inline-block;
+ padding:0.5rem 1rem;
+ margin-top:1.6rem;
+ margin-left: .5rem;
+ border-radius: 4px;
+
+ cursor: pointer;
+
+
+border:0px ;
+
+ 
+ background-color:white;
+
+
+}
+.girisyap a,.sepetim a{
+
+  text-decoration: none;
+
+}
+.col-md-3 .sepetim
+{
+border-radius:4px !important;
+
+
+}
+.fa-shopping-cart,.fa-user{
+  margin-right:.3rem;
+
+
+
+}
+
+@media(max-width:1200px){
+
+.sepetim{
+  position:fixed;
+
+ 
+top:40px;
+left: 120px;
+  z-index: 2000;
+
+  
+
+}
+.girisyap{
+  position:fixed;
+  left:180px;
+  top:40px;
+  z-index:2500;
+
+}
+.girisyap a{
+  display: none;
+
+}
+.sepetim a{
+  display: none;
+}
+}
+/*menu bitiş kodları*/
+/* mega menu başlangıç kodları*/
+
+.megamenu h6:first-of-type {
+  text-align: center;
+
+  color: white;
+}
+.megamenu a{
+
+margin-left: 1rem;
+text-decoration: none;
+
+  color: white;
+}
+
+
+.birinci:hover,.ikinci:hover,.ucuncu:hover,.dorduncu:hover{
+
+  color:white;
+  background-color: black;
+  border-radius: 8px;
+}
+
+/* section bölümü1*/
+.bolum1{
+
+height:500px; 
+width:100%;
+background:url('../images/hosting1.jpg');
+background-repeat: no-repeat;
+
+
+}
+.bolum1 input{
+ width: 100%;
+ height: 50px;
+ margin-top: 10rem;
+ border:none;
+
+}
+
+
+.bolum1 button{
+ width: 100%;
+  height: 50px;
+  margin-top: 10rem;
+  position: absolute;
+  top:0px;
+  left:-15px;
+}
+
+/* section bölümü1 kapanış*/
+/*section bolum2 başlangıç*/
+
+
+
+
+.cartim:hover{
+
+
+background-color: red;
+transform: scale(1.1);
+
+}
+.bolum2{
+
+width:100%;
+height:auto;
+
+background-image: url('../images/hosting3.jpg');
+
+
+}
+
+
+
+.bolum2 .card:hover{
+  background-color: white !important;
+  color: orange !important;
+
+
+}.bolum2 .card:hover button,h4{
+  color: orange !important;
+}
+
+/*section bolum2 bitiş*/
+/*section 3 bolum3 başlangıç*/
+
+.bolum3{
+
+  text-align: center;
+  line-height:5rem;
+  color: white;
+  text-transform: capitalize;
+  font-size:24px;
+
+}
+/*section bolum3 bitiş*/
+/*section 4 bolum4 başlangıç*/
+.bolum4{
+
+  height: auto;
+  margin-bottom: 5rem;
+}
+.daire{
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 7rem;
+
+
+
+}
+.daire i{
+position: absolute;
+left:1.7rem;
+top:1.6rem;
+}
+
+.bolum4 .icon-text,.icon-text-2{
+  font-weight:700;
+    margin-left:7rem;
+}
+.bolum4 .col-md-4{
+
+}
+/*section bolum4 bitiş*/
+/*section 5 bolum5 başlangıç*/
+
+.bolum5 .col-md-12{
+
+  background-color:#B3B7BD;
+  height:10rem;
+}
+.bolum5  h3{
+margin-top: 3rem;
+
+}
+.bolum5  p
+{
+color: white;
+
+}
+
+.bolum5 button{
+
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  left:-16px;
+  margin-top:4rem;
+ 
+}
+.bolum5 input{
+
+  width: 100%;
+  height: 40px;
+    margin-top:4rem;
+
+}
+/*section bolum5 bitiş*/
+/*footer başlangıç*/
+
+.footer-link  ul li a:first-child{
+color: white;
+ 
+}
+.footerlogo{
+  color: white;
+}
+
+@media(max-width:992px){
+
+  .footer-link{
+
+    display: none;
+  }
+
+
+  ul.footerlogom{
+  color: white;
+  font-size:24px;
+  text-align: center;
+  margin-left:40%;
+}
+
+
+
+
+}
+/*footer bitiş*/
+/*login sayfası css kodları başlangıç*/
+
+.loginicerik
+{
+width:100%;
+height:600px;
+background-image:url('../images/hosting3.jpg');
+background-size: cover;
+
+}
+
+.loginpanel{
+
+  width:100%;
+  height:auto;
+  background-color:#333333;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+ 
+
+}
+.loginpanel h1,.loginpanel h3{
+  color: white;
+
+}
+.loginpanel label{
+  color: white;
+}
+.loginpanel label i{
+  margin-left: 1rem;
+}
+
+.loginpanel a{
+float:right;
+text-decoration: none;
+color: white;
+list-style-type: none;
+}
+.loginpanel input[name='girisyap']{
+
+
+  background-color:#FF6600;
+  color: white;
+  border:none;
+  cursor: pointer;
+  width: 100%;
+
+}
+.loginpanel button[name='googlegirisyap']{
+
+ height: 65px;
+ width: 100%;
+
+}
+
+
+
+
+
+.loginpanel .loginbutton,.loginpanel .sifremiunuttumbutton{
+
+  color: green;
+  background-color: white;
+  transition: .5s;
+  height:4rem;
+  border:none;
+  cursor: pointer;
+}
+.loginpanel .loginbutton,.loginpanel .sifremiunuttumbutton:hover{
+
+  color:white;
+  background-color:green;
+}
+/*şifremi unuttum sayfası css kodları*/
+
+/*üyelik sayfası yani register sayfası css kodları başladı*/
+.signupicerik
+{
+width:100%;
+height: 700px;
+background-image:url('../images/signupresim.jpg');
+background-size: cover;
+
+}
+.signupicerik .input-group span{
+  background-color: #666666;
+  color: white;
+}
+.signupicerik span.kampanya{
+
+  margin-left: 1rem;
+}
+.signupicerik span.kampanya,.sozlesme{
+
+  color: white;
+
+}
+
+.registerhata{
+ 
+  color: white;
+
+}
+.registerhata i{
+ margin-right: .4rem;
+ color: red;
+ display: none;
+}
+
+
+#email-error,#emailrepeat-error,#password-error,#passwordrepeat-error{
+color:yellow;
+padding: .1rem;
+display: none;
+
+
+}
+
+
+/*üyelik sayfası yani register sayfası css kodları  bitti */

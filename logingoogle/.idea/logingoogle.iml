@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/googleapi/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/google/apiclient-services" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/googleapi/vendor/psr/log" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/googleapi/vendor/composer" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/firebase/php-jwt" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/google/apiclient-services" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/google/auth" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/phpseclib/phpseclib" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/psr/cache" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/psr/log" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/googleapi/vendor/composer" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/firebase/php-jwt" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/google/apiclient-services" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/google/auth" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/phpseclib/phpseclib" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/psr/cache" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/googleapi/vendor/psr/log" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

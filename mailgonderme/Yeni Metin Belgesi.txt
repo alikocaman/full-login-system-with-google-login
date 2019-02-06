@@ -1,0 +1,15 @@
+
+$mail->SMTPOptions = array(
+    'ssl' => array(
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true
+    )
+    );
+ 
+yukarýdaki kodlar stack over sitesinde  ayný klasörde bulunan hatadan dolayý bulunmuþ oldu
+  program composer ile herhangi bir klasöre kurulur kurulurken 
+þift tuþuna basýlýr  ve mouse sað klik yapýlýr ve phpmailerde alýnan composer kodu buraya yapýþtýrýlýr
+kurulum tamamlandýktan sonra ise açýlan kodlarda bir hata vardýr yani sistem çalýþmýyordur hata resmi ayný klasörde bulunmaktadýr
+onun için  hatayý yok etmek için yukarýdaki kodlar SMTPDEBUGGER=2 DEN SONRA 
+YAZILIR VE HATA KODU ORTADAN KAYBOLUR
